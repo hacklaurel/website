@@ -10,7 +10,7 @@
   <link rel="manifest" href="/site.webmanifest">
 </svelte:head>
 
-<header class="display-none z-100 text-neutral-600 body-font md:fixed w-screen pt-2 md:bg-[rgba(0,0,0,0.15)] bg-black md:backdrop-blur-xl text-white">
+<header class="display-none z-100 text-neutral-600 body-font md:block md:fixed w-screen pt-2 md:bg-[rgba(0,0,0,0.15)] bg-black md:backdrop-blur-xl text-white">
   <div class="container mx-auto flex flex-wrap md:p-5 p-3 flex-col md:flex-row items-center">
     <a class="flex title-font font-medium items-center hover:scale-105 transition ease-out duration-350 text-neutral-900 mb-4 md:mb-0" href="/">
       <img src="/hacklaurel_wm.webp" class="h-10 md:h-15" alt="Hack Laurel Wordmark" height={15}>
