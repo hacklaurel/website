@@ -1,0 +1,45 @@
+body {
+    font-family: 'Inter';
+}
+
+html {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+h1 {
+    font-weight: 800;
+    letter-spacing: -4px;
+}
+
+p {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    letter-spacing: -1px
+}
+
+/* @font-face {
+    font-family: 'Inter';
+    src: url('/inter-v-webfont.woff2') format('woff2-variations');
+         /* url('/inter-v-webfont.woff') format('woff-variations');
+    font-weight:100 900;
+    font-variation-settings: 'wght' 200;
+    font-style: normal;
+} */
+
+@font-face {
+    font-family: 'Inter';
+    src: url('/Inter-V.ttf');
+    font-weight: 100 900; 
+    font-style: normal;
+}
+/* 
+@font-face {
+	font-family: 'Inter';
+	src: url('/inter-v-webfont.woff2') format('woff2-variations');
+	font-weight: 300 900;
+} */
