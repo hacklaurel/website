@@ -8,6 +8,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
   <link rel="manifest" href="/site.webmanifest">
+  <script async defer data-website-id="1a85b4c7-bc0d-4457-a016-0c0cd79ddb0b" src="https://magic.thrzl.xyz/umami.js"></script>
 </svelte:head>
 
 <header class="display-none z-100 text-neutral-600 body-font md:block md:fixed w-screen pt-2 md:bg-[rgba(0,0,0,0.15)] bg-black md:backdrop-blur-xl text-white">
