@@ -8,6 +8,7 @@ specifiers:
   '@unocss/core': ^0.49.7
   '@unocss/preset-icons': ^0.49.7
   '@unocss/preset-uno': ^0.49.7
+  dayjs: ^1.11.7
   eslint: ^8.28.0
   eslint-config-prettier: ^8.5.0
   eslint-plugin-svelte3: ^4.0.0
@@ -15,10 +16,14 @@ specifiers:
   prettier-plugin-svelte: ^2.8.1
   svelte: ^3.54.0
   svelte-check: ^3.0.1
+  svelte-countdown: ^1.1.2
   tslib: ^2.4.1
   typescript: ^4.9.3
   unocss: ^0.49.7
   vite: ^4.0.0
+
+dependencies:
+  dayjs: 1.11.7
 
 devDependencies:
   '@sveltejs/adapter-auto': 2.0.0_@sveltejs+kit@1.7.1
@@ -35,6 +40,7 @@ devDependencies:
   prettier-plugin-svelte: 2.9.0_jrsxveqmsx2uadbqiuq74wlc4u
   svelte: 3.55.1
   svelte-check: 3.0.3_svelte@3.55.1
+  svelte-countdown: 1.1.2
   tslib: 2.5.0
   typescript: 4.9.5
   unocss: 0.49.7_vite@4.1.2
@@ -925,6 +931,14 @@ packages:
       mdn-data: 2.0.30
       source-map-js: 1.0.2
     dev: true
+
+  /dayjs/1.10.1:
+    resolution: {integrity: sha512-2xg7JrHQeLBQFkvTumLoy62x1siyeocc98QwjtURgvRqOPYmAkMUdmSjrOA+MlmL6QMQn5MUhDf6rNZNuPc1LQ==}
+    dev: true
+
+  /dayjs/1.11.7:
+    resolution: {integrity: sha512-+Yw9U6YO5TQohxLcIkrXBeY73WP3ejHWVvx8XCk3gxvQDCTEmS48ZrSZCKciI7Bhl/uCMyxYtE9UqRILmFphkQ==}
+    dev: false
 
   /debug/4.3.4:
     resolution: {integrity: sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ==}
@@ -1938,6 +1952,12 @@ packages:
       - sass
       - stylus
       - sugarss
+    dev: true
+
+  /svelte-countdown/1.1.2:
+    resolution: {integrity: sha512-datUfbRtGCp+7OwIRcbW9tbIwlkN7KiJp9Mg01Na9HgSQrLG0knsD/xjaIVKPovxY8xF0yOrbPEz+bT/BS9EBQ==}
+    dependencies:
+      dayjs: 1.10.1
     dev: true
 
   /svelte-hmr/0.15.1_svelte@3.55.1:
