@@ -38,7 +38,7 @@
         During this event, you'll have the opportunity to learn new skills, connect with like-minded individuals, and expand your network. Whether you're a beginner or an experienced programmer, Hack Laurel welcomes participants of all levels to collaborate and innovate in a supportive and inclusive environment.<br/>
         </p>
     </div>
-    <div class="grid mx-auto lg:max-w-1/3 max-w-3/4 text-neutral lg:max-h-295 lg:overflow-scroll" style="-webkit-mask-image: linear-gradient(to bottom,#0000 0%,#000 10%,#000 85%,#0000 100%);">
+    <div class="grid mx-auto lg:max-w-1/3 max-w-3/4 text-neutral lg:max-h-295 lg:overflow-none py-20" style="-webkit-mask-image: linear-gradient(to bottom,#0000 0%,#000 10%,#000 85%,#0000 100%);">
         <div class="backdrop-blur-xl p-5 px-10 b-2 mb-10 rounded-xl hover:text-white transition duration-500" style="background: linear-gradient(rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15))">
             <h1 class="text-4xl font-800 mb-0 -spacing-2">HACKING?!?!?</h1>
             <p class="text-2xl font-500">Woah! We aren't hacking <em>servers</em>, we're <em>creating</em>— think apps and websites. It's completely supervised and educational.</p>
