@@ -1,5 +1,6 @@
 <script>
     import Button from "../components/Button.svelte";
+    import EventCode from "../components/icons/EventCode.svelte";
 </script>
 <svelte:head>
 <title>Hack Laurel — Unleash Your Creativity</title>
@@ -25,13 +26,13 @@
         <p class="text-xl md:text-2xl font-500">Unleash your creativity and problem-solving skills at Hack Laurel, where PGCPS students come together to design and build innovative solutions to real-world challenges.</p>
         <div class="p-5 mb-10 rounded-xl" style="background: linear-gradient(rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15))">
             <h1 class="text-2xl md:text-4xl font-800 mb-0 -spacing-2">Coming Soon.</h1>
-            <p class="text-xl font-500"><span class="font-800">Hack Laurel</span> will be held on <span class="font-800">May 20th, 2023</span>.</p>
+            <p class="text-xl font-500 vertical-middle"><EventCode _class="vertical-middle"/> <span class="font-800">May 20th, 2023</span>.</p>
         </div>
         <Button href="https://app.fillout.com/t/uDRyboUxWVus">Register</Button>
     </div>
 </div>
 <div class="w-screen h-full flex lg:flex-row flex-col bg-black" style="background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.775), rgba(0, 0, 0, 0.75)), url(./rundown-epoch.webp); background-position: center; background-size: cover">
-    <div class="m-auto w-max-content h-max-content max-w-1/2 text-white text-center">
+    <div class="m-auto w-max-content h-max-content max-w-3/4 lg:max-w-1/2 text-white text-center">
         <h1 class="md:text-7xl text-5xl font-800">The Rundown.</h1>
         <p class="text-2xl">Hack Laurel is a high school hackathon where students from PG come together to turn their ideas into reality. Join us for a weekend of coding, creating, and problem-solving as we work together to build innovative solutions to real-world challenges involving students.<br/><br/>
 
