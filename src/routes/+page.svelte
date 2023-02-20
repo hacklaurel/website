@@ -1,6 +1,6 @@
 <script>
     import Button from "../components/Button.svelte";
-    import EventCode from "../components/icons/EventCode.svelte";
+    import Calendar from "../components/Calendar.svelte";
 </script>
 <svelte:head>
 <title>Hack Laurel — Unleash Your Creativity</title>
@@ -24,9 +24,8 @@
     <div class="m-auto w-max-content h-max-content max-w-3/4 md:max-w-1/2 text-white text-center">
         <h1 class="text-5xl md:text-7xl font-800 mb-0">Unleash your creativity.</h1>
         <p class="text-xl md:text-2xl font-500">Unleash your creativity and problem-solving skills at Hack Laurel, where PGCPS students come together to design and build innovative solutions to real-world challenges.</p>
-        <div class="p-5 mb-10 rounded-xl" style="background: linear-gradient(rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15))">
-            <h1 class="text-2xl md:text-4xl font-800 mb-0 -spacing-2">Coming Soon.</h1>
-            <p class="text-xl font-500 vertical-middle"><EventCode _class="vertical-middle"/> <span class="font-800">May 20th, 2023</span>.</p>
+        <div class="p-5 mb-10 rounded-xl w-full flex">
+            <Calendar/>
         </div>
         <Button href="https://app.fillout.com/t/uDRyboUxWVus">Register</Button>
     </div>
