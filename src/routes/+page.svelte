@@ -24,7 +24,7 @@
     <div class="m-auto w-max-content h-max-content max-w-3/4 md:max-w-1/2 text-white text-center">
         <h1 class="text-5xl md:text-7xl font-800 mb-0">Unleash your creativity.</h1>
         <p class="text-xl md:text-2xl font-500">Unleash your creativity and problem-solving skills at Hack Laurel, where PGCPS students come together to design and build innovative solutions to real-world challenges.</p>
-        <div class="p-5 mb-10 rounded-xl w-full flex">
+        <div class="lg:p-5 mb-5 rounded-xl w-full flex">
             <Calendar/>
         </div>
         <Button href="https://app.fillout.com/t/uDRyboUxWVus">Register</Button>
