@@ -57,11 +57,23 @@
         </div>
     </div> 
 </div>
-<div class=" h-full flex md:flex-row flex-col bg-black p-10">
+<div class="h-102vh w-screen flex p-0 bg-cover bg-filter-brightness-50 bg-no-repeat bg-black"> <!--style="background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.775), rgba(0, 0, 0, 1)), url(./hero.webp); background-position: center; background-size: cover"> -->
+    <div class="m-auto w-max-content max-h-3/4 max-w-3/4 text-white text-center">
+        <h1 class="text-5xl md:text-7xl font-800 mb-8">Our Sponsors</h1>
+        <div class="grid md:grid-cols-2 gap-y-3 md:gap-x-30 p-5 backdrop-blur-xl bg-[#fff3] rounded-xl">
+            <img alt="zion church logo" src="zionchurch.webp" class="m-auto min-w-3/4 w-3/4"/>
+            <img alt="wolfram language logo"src="wolframlang.webp" class="m-auto min-w-3/4 w-3/4"/>
+            <img alt="hack club orpheus flag logo"src="hackclub.png" class="m-auto min-w-3/4 w-3/4"/>
+            <img alt="first logo"src="first.webp" class="m-auto min-w-3/4 w-3/4"/>
+            <Button style="grid-column: span 2" hover={false} href="https://app.fillout.com/t/qF3BeM1JnXus">And You?</Button>
+        </div>
+    </div>
+</div>
+<div class=" h-full flex md:flex-row flex-col bg-primary p-10">
     <div class="m-auto w-max-content h-max-content md:max-w-1/2 text-white md:text-left text-center">
-        <h1 class="text-5xl my-auto md:text-7xl font-800 -mb-2">Ready to get started?</h1>
+        <h1 class="text-5xl my-auto md:text-7xl font-800 mb-1">Ready to get started?</h1>
     </div>
     <div class="mx-auto flex block md:w-1/3 text-neutral p-5 m-5 mt-0 md:my-auto">
-        <Button classes="m-auto w-full md:w-3/4 text-center text-xl" hover={false} href="https://app.fillout.com/t/uDRyboUxWVus">Register</Button>
+        <Button classes="m-auto w-full md:w-3/4 text-center text-xl bg-black" style="background: black" hover={false} href="https://app.fillout.com/t/uDRyboUxWVus">Register</Button>
     </div>
 </div>
