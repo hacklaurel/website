@@ -20,14 +20,14 @@
 <meta property="twitter:image" content="https://hacklaurel.net/hacklaurel_og.png">    
 </svelte:head>
 
-<div class="h-102vh w-screen flex p-0 bg-cover bg-filter-brightness-50 bg-no-repeat" style="background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.775), rgba(0, 0, 0, 1)), url(./hero.webp); background-position: center; background-size: cover">
-    <div class="m-auto w-max-content h-max-content max-w-3/4 md:max-w-1/2 text-white text-center">
+<div class="min-h-max-content md:min-h-screen w-screen flex p-0 bg-cover bg-filter-brightness-50 bg-no-repeat" style="background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.775), rgba(0, 0, 0, 1)), url(./hero.webp); background-position: center; background-size: cover">
+    <div class="m-auto w-max-content h-max-content max-w-3/4 text-white text-center">
         <h1 class="text-5xl md:text-7xl font-800 mb-0">Unleash your creativity.</h1>
         <p class="text-xl md:text-2xl font-500">Unleash your creativity and problem-solving skills at Hack Laurel, where PGCPS students come together to design and build innovative solutions to real-world challenges.</p>
         <div class="lg:p-5 mb-5 rounded-xl w-full flex">
             <Calendar/>
         </div>
-        <Button href="https://app.fillout.com/t/uDRyboUxWVus">Register</Button>
+        <div class="flex w-full place-content-evenly flex-col md:flex-row"><Button classes="w-3/4 h-min-content mx-5 my-2" href="https://app.fillout.com/t/uDRyboUxWVus">Register</Button> <Button classes="mx-5 my-2 w-3/4 h-min-content" href="https://bank.hackclub.com/donations/start/hacklaurel">Donate</Button></div>
     </div>
 </div>
 <div class="w-screen h-full flex lg:flex-row flex-col bg-black" style="background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.775), rgba(0, 0, 0, 0.75)), url(./rundown-epoch.webp); background-position: center; background-size: cover">
