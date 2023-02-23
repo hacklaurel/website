@@ -23,7 +23,7 @@
   </div>
 </header>
 <slot/>
-<footer class="text-neutral-400 bg-black -mx-2 -my-5.5 w-screen">
+<footer class="text-neutral-400 bg-black w-screen">
   <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col md:text-left text-center">
     <a class="flex title-font font-medium items-center md:justify-start justify-center text-white" href="/">
       <img src="/hacklaurel_wm.webp" class="h-10" alt="Hack Laurel Wordmark">
