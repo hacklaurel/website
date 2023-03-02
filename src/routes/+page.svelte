@@ -57,15 +57,16 @@
         </div>
     </div> 
 </div>
-<div class="h-102vh w-screen flex p-0 bg-cover bg-filter-brightness-50 bg-no-repeat bg-black"> <!--style="background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.775), rgba(0, 0, 0, 1)), url(./hero.webp); background-position: center; background-size: cover"> -->
+<div class="min-h-102vh w-screen flex p-0 bg-cover bg-filter-brightness-50 bg-no-repeat bg-black"> <!--style="background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.775), rgba(0, 0, 0, 1)), url(./hero.webp); background-position: center; background-size: cover"> -->
     <div class="m-auto w-max-content max-h-3/4 max-w-3/4 text-white text-center">
         <h1 class="text-5xl md:text-7xl font-800 mb-8">Our Sponsors</h1>
-        <div class="grid md:grid-cols-2 gap-y-3 md:gap-x-30 p-5 backdrop-blur-xl bg-[#fff3] rounded-xl">
-            <img alt="zion church logo" src="zionchurch.webp" class="m-auto min-w-3/4 w-3/4"/>
-            <img alt="wolfram language logo"src="wolframlang.webp" class="m-auto min-w-3/4 w-3/4"/>
-            <img alt="hack club orpheus flag logo"src="hackclub.png" class="m-auto min-w-3/4 w-3/4"/>
-            <img alt="first logo"src="first.webp" class="m-auto min-w-3/4 w-3/4"/>
-            <Button style="grid-column: span 2" hover={false} href="https://app.fillout.com/t/qF3BeM1JnXus">And You?</Button>
+        <div class="flex max-w-full flex-wrap gap-y-3 md:gap-x-10 p-5 backdrop-blur-xl bg-[#fff3] rounded-xl">
+            <img alt="zion church logo" src="zionchurch.webp" class="m-auto min-w-1/5 w-3/4 md:w-1/5"/>
+            <img alt="wolfram language logo"src="wolframlang.webp" class="m-auto min-w-1/5 w-3/4 md:w-1/5"/>
+            <img alt="hack club orpheus flag logo"src="hackclub.png" class="m-auto min-w-1/5 w-3/4 md:w-1/5"/>
+            <img alt="first logo"src="first.webp" class="m-auto min-w-1/5 w-3/4 md:w-1/5"/>
+            <img alt="dive logo"src="dive.png" class="m-auto min-w-1/5 w-3/4 md:w-1/5"/>
+            <Button classes="w-full" hover={false} href="https://app.fillout.com/t/qF3BeM1JnXus">And You?</Button>
         </div>
     </div>
 </div>
