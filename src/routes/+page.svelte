@@ -30,6 +30,9 @@
         <div class="flex w-full place-content-evenly flex-col md:flex-row"><Button classes="w-3/4 h-min-content mx-5 my-2" href="https://app.fillout.com/t/uDRyboUxWVus">Register</Button> <Button classes="mx-5 my-2 w-3/4 h-min-content" href="https://bank.hackclub.com/donations/start/hacklaurel">Donate</Button></div>
     </div>
 </div>
+<div class="w-full bg-yellow m-0 py-3">
+    <p class="font-800 -spacing-1 text-center w-full">Hack Laurel has unfortunately been postponed due to low sign ups.</p>
+</div>
 <div class="w-screen h-full flex lg:flex-row flex-col bg-black" style="background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.775), rgba(0, 0, 0, 0.75)), url(./rundown-epoch.webp); background-position: center; background-size: cover">
     <div class="m-auto w-max-content h-max-content max-w-3/4 lg:max-w-1/2 text-white text-center">
         <h1 class="md:text-7xl text-5xl font-800">The Rundown.</h1>
